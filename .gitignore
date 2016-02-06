@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ingore byebug history
+/.byebug_history
