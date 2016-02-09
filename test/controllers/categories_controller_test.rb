@@ -22,6 +22,6 @@ class CategoriesControllerTest < ActionController::TestCase
     assert_no_difference 'Category.count' do
       post :create, category: {name: "sports"}
     end
-    assert_redirect_to categories_path
+    assert_redirected_to categories_path
   end
 end
